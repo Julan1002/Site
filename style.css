@@ -1,0 +1,52 @@
+/* Styles généraux */
+body {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* En-tête */
+.header {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Navigation */
+.navbar {
+    background-color: #333333;
+    overflow: hidden;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #555555;
+}
+
+/* Contenu principal */
+.main-content {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Pied de page */
+.footer {
+    background-color: #333333;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+}
